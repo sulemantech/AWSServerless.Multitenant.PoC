@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWSServerless.Multitenant.PoC.Tests", "AWSServerless.Multitenant.PoC.Tests\AWSServerless.Multitenant.PoC.Tests.csproj", "{46EFD58F-5877-4229-9684-2A0D77E8787D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multitenant.Infrastructure", "Multitenant.Infrastructure\Multitenant.Infrastructure.csproj", "{200D22D1-081C-4F97-B5D6-0154C9463679}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multitenant.Core", "Multitenant.Core\Multitenant.Core.csproj", "{08E12A24-BEE5-4FCE-ACCA-9230CFB59632}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWSServerless.Multitenant.PoC", "AWSServerless.Multitenant.PoC\AWSServerless.Multitenant.PoC.csproj", "{791EA50B-C19E-4B54-967C-2BD9309ECD8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46EFD58F-5877-4229-9684-2A0D77E8787D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46EFD58F-5877-4229-9684-2A0D77E8787D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46EFD58F-5877-4229-9684-2A0D77E8787D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46EFD58F-5877-4229-9684-2A0D77E8787D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{200D22D1-081C-4F97-B5D6-0154C9463679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{200D22D1-081C-4F97-B5D6-0154C9463679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{200D22D1-081C-4F97-B5D6-0154C9463679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{200D22D1-081C-4F97-B5D6-0154C9463679}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08E12A24-BEE5-4FCE-ACCA-9230CFB59632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08E12A24-BEE5-4FCE-ACCA-9230CFB59632}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08E12A24-BEE5-4FCE-ACCA-9230CFB59632}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08E12A24-BEE5-4FCE-ACCA-9230CFB59632}.Release|Any CPU.Build.0 = Release|Any CPU
+		{791EA50B-C19E-4B54-967C-2BD9309ECD8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{791EA50B-C19E-4B54-967C-2BD9309ECD8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{791EA50B-C19E-4B54-967C-2BD9309ECD8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{791EA50B-C19E-4B54-967C-2BD9309ECD8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D131D26A-AEF2-4C86-8E70-045F0332A4AC}
+	EndGlobalSection
+EndGlobal
